@@ -1,1 +1,1 @@
-# demo-snowpack-preact
+# demo-snowpack-react
