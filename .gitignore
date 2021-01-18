@@ -1,3 +1,11 @@
-.snowpack
-build
-node_modules
+dist/
+
+.microsite/
+.vscode/
+node_modules/
+$RECYCLE.BIN/
+
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+.env

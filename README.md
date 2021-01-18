@@ -1,25 +1,25 @@
-# New Project
+# Microsite Starter
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+Microsite is a next-generation static site generator.
 
-## Available Scripts
+## Getting Started
 
-### npm start
+To start a new project using Microsite, clone this repo to a new directory:
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+```
+npm init microsite
+```
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+To spin up a development server, run:
 
-### npm run build
+```
+npm start
+```
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+To build your production-ready site, run:
 
-**For the best production performance:** Add a build bundler plugin like "@snowpack/plugin-webpack" to your `snowpack.config.js` config file.
-
-### npm test
-
-Launches the application test runner.
-Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch mode.
+```
+npm run build
+# or build + serve with
+npm run serve
+```
